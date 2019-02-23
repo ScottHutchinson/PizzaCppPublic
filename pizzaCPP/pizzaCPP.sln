@@ -1,0 +1,66 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "pizzaCPP", "pizzaCPP.vcxproj", "{AD271D85-1704-4411-A0B5-AC166A646508}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "JsonLibrary", "..\JsonLibrary\JsonLibrary.vcxproj", "{06A5B611-2952-48CE-AD52-E5B2771F648B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JsonProxy", "JsonProxy\JsonProxy.csproj", "{3FD15A55-5530-4F4A-874C-F304271D4ECD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B335EB92-D45E-4775-B57B-E2EF409550EF}"
+	ProjectSection(SolutionItems) = preProject
+		..\README.md = ..\README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Debug|x64.ActiveCfg = Debug|x64
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Debug|x64.Build.0 = Debug|x64
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Debug|x86.ActiveCfg = Debug|Win32
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Debug|x86.Build.0 = Debug|Win32
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Release|Any CPU.ActiveCfg = Release|Win32
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Release|x64.ActiveCfg = Release|x64
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Release|x64.Build.0 = Release|x64
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Release|x86.ActiveCfg = Release|Win32
+		{AD271D85-1704-4411-A0B5-AC166A646508}.Release|x86.Build.0 = Release|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Debug|x64.ActiveCfg = Debug|x64
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Debug|x64.Build.0 = Debug|x64
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Debug|x86.ActiveCfg = Debug|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Debug|x86.Build.0 = Debug|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Release|Any CPU.ActiveCfg = Release|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Release|x64.ActiveCfg = Release|x64
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Release|x64.Build.0 = Release|x64
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Release|x86.ActiveCfg = Release|Win32
+		{06A5B611-2952-48CE-AD52-E5B2771F648B}.Release|x86.Build.0 = Release|Win32
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|x64.ActiveCfg = Debug|x64
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|x64.Build.0 = Debug|x64
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Debug|x86.Build.0 = Debug|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|x64.ActiveCfg = Release|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|x64.Build.0 = Release|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|x86.ActiveCfg = Release|Any CPU
+		{3FD15A55-5530-4F4A-874C-F304271D4ECD}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {472BF445-B7E3-48C5-A1CE-F7DD5D5C8D46}
+	EndGlobalSection
+EndGlobal
