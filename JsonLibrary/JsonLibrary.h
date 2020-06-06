@@ -1,5 +1,5 @@
 #pragma once
-#include <vector>
+
 // The following ifdef block is the standard way of creating macros which make exporting 
 // from a DLL simpler. All files within this DLL are compiled with the JSONLIBRARY_EXPORTS
 // symbol defined on the command line. This symbol should not be defined on any project
@@ -16,6 +16,8 @@ struct JSONLIBRARY_API Pizza {
     struct stToppings {
 	    std::vector<std::string> toppings;
     } m_st;
+
+    virtual ~Pizza() = default;
 };
 
 JSONLIBRARY_API std::vector<Pizza> GetPizzas();

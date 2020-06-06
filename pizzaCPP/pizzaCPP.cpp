@@ -2,7 +2,7 @@
 #include "../JsonLibrary/JsonLibrary.h"
 
 int main() {
-    auto pizzas = GetPizzas();
+    auto const& pizzas = GetPizzas();
     // TODO: Add code here to list the 20 most popular pizzas.
     //system("pause");
 }
